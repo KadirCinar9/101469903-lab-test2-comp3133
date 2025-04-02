@@ -1,0 +1,7 @@
+<div *ngIf="mission">
+    <h2>{{ mission.mission_name }}</h2>
+    <p>Launch Year: {{ mission.launch_year }}</p>
+    <p>Rocket: {{ mission.rocket.rocket_name }} - {{ mission.rocket.rocket_type }}</p>
+    <a [href]="mission.links.wikipedia" target="_blank">Wikipedia</a>
+  </div>
+  

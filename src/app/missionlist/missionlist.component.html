@@ -1,0 +1,13 @@
+<div *ngIf="missions.length > 0; else loading">
+    <div *ngFor="let mission of missions">
+      <h3>{{ mission.mission_name }}</h3>
+      <p>Flight Number: {{ mission.flight_number }}</p>
+      <p>Launch Year: {{ mission.launch_year }}</p>
+      <a [routerLink]="['/mission', mission.flight_number]">View Details</a>
+    </div>
+  </div>
+  
+  <ng-template #loading>
+    <p>Loading missions...</p>
+  </ng-template>
+  
