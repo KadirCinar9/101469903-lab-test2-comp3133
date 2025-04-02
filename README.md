@@ -1,5 +1,38 @@
 # 101469903LabTest2Comp3133
 
+
+## Screenshots
+
+### Screenshot 1
+![Screenshot 1](ss/ss1.png)
+
+
+
+### Screenshot 2
+![Screenshot 2](ss/ss2.png)
+
+
+### Screenshot 3
+![Screenshot 3](ss/ss3.png)
+
+### Screenshot 4
+![Screenshot 4](ss/ss4.png)
+
+### Screenshot 5
+![Screenshot 5](ss/ss5.png)
+## Installation
+
+Instructions on how to install and run your project.
+
+## Usage
+
+Instructions on how to use your project.
+
+
+
+
+
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
 
 ## Development server
